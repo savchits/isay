@@ -26,46 +26,9 @@ $content=View::factory('v_mainblockprofile', array('mainblock'=>$a));
 $this->template->mainblock=$content;
     }
 
-    public function action_orders() {
-        
-        $content = View::factory('index/account/v_account_orders');
-        
-        // Выводим в шаблон
-        $this->template->title = 'Заказы';
-        $this->template->page_title = 'Заказы';
-        $this->template->block_center = array($content);
-    }
-
-    public function action_profile() {
-        if (isset($_POST['submit'])) {
-                    $users = ORM::factory('user');
-
-                    try {
-                        $users->where('id', '=', $this->user->id)
-                                ->find()
-                                ->update_user($_POST, array(
-                                    'username',
-                                    'first_name',
-                                    'email',
-                                ));
-
-                        $this->request->redirect('account/profile');
-                    }
-                    catch (ORM_Validation_Exception $e) {
-                        $errors = $e->errors('auth');
-                    }
-                }
+ 
 
 
-        $content = View::factory('index/account/v_account_profile')
-                        ->bind('user', $this->user)
-                        ->bind('errors', $errors);
-
-        // Выводим в шаблон
-        $this->template->title = 'Профиль';
-        $this->template->page_title = 'Профиль';
-        $this->template->block_center = array($content);
-    }
 
 
 }
