@@ -1,0 +1,518 @@
+body {
+margin:0px;
+padding:0px;
+
+}
+ html { 
+      height: 100%; 
+    } 
+#info{
+ width:863px;
+ height:30px;
+   background:url('../Images/pdfb.png');
+ 
+}
+
+#main{
+ width:863px;
+
+height:4000px;
+position:relative;
+padding: 30px 0px 0px;
+
+
+
+
+}
+
+
+
+
+
+#aboutme{
+ width:240px;
+display: inline-block;
+ height:191px;
+ float:left;
+ 
+}
+#myfriends{
+ width:240px;
+display: inline-block;
+ height:191px;
+ float:left;
+}
+#friendstolisten{
+ width:120px;
+display: inline-block;
+ height:191px;
+ float:left;
+}
+#friendstosay{
+ width:120px;
+display: inline-block;
+ height:191px;
+ float:left;
+}
+
+
+.isaymessage{
+display: inline-block;
+width:340px;
+height:70px;
+   background:url('../Images/pdfb2.png');
+   margin-top:2px;
+}
+
+#wallplace{
+width:340px;
+margin-right:10px;
+margin-left:10px;
+display: inline-block;
+height:4500px;
+margin-top:10px;
+   background:url('../Images/pdfb.png');
+
+
+
+}
+
+
+
+
+#toolbar{
+
+ min-width:863px;
+ height:30px;
+ background:black;
+width:863px;
+margin: 0px auto 0 auto;
+
+z-index: 1000;
+
+
+
+}
+#top{
+width:100%;
+ background:black;
+ height:30px;
+ position:fixed;
+z-index:9000;
+box-shadow: 0 2px 3px rgba(0,0,0,.25);
+-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+}
+#mainmenu{
+ width:863px;
+
+
+
+}
+
+
+
+
+
+
+
+#footer{
+
+position: relative;
+    top: 60px;
+	
+min-width:100%;
+ height:30px;
+ background:black;
+
+
+	
+}
+ 
+#name{
+  color:black;
+  text-align:center;
+float:left;
+display: inline-block;
+ width:191px;
+ height:30px;
+font-size:14px;
+  line-height:30px;
+font-weight:bold;
+  font-family:Arial ;
+}
+
+#country{
+  color:black;
+  text-align:center;
+float:left;
+display: inline-block;
+ width:120px;
+ height:30px;
+font-size:12px;
+  line-height:30px;
+
+}
+
+  
+
+  
+#city{
+  color:black;
+  text-align:center;
+float:left;
+display: inline-block;
+ width:120px;
+ height:30px;
+
+font-size:12px;
+  line-height:30px;
+
+}
+
+#listento{
+  color:white;
+  text-align:center;
+float:left;
+display: inline-block;
+ width:120px;
+  height:15px;
+font-size:12px;
+  line-height:25px;
+
+}
+#topvoting{
+ background:white;
+ width:192px;
+ float:left;
+ display: inline-block;
+  height:30px;
+    line-height:35px;
+
+text-align:center;
+}
+#sayto{
+  color:white;
+font-size:12px;
+float:left;
+display: inline-block;
+
+  height:15px;
+ width:120px;
+
+}
+#number{
+margin-top:0;
+  line-height:20px;
+text-indent:49px;
+text-align:left;
+  background:black;
+ width:120px;
+  height:15px;
+}
+#upanddown{
+margin-top:0;
+  line-height:28px;
+text-indent:9px;
+text-align:left;
+
+ width:120px;
+  height:15px;
+}
+
+.letter a{
+  font-family:Arial Black;
+  color:white;
+font-size:12px;
+
+}
+
+
+#down {
+margin-top:0;
+  line-height:28px;
+text-indent:9px;
+text-align:left;
+display: inline-block;
+ width:60px;
+ height:15px;
+ float:left;
+    background:url('../Images/pdfb2.png');
+	font-size:12px;
+	  line-height:15px;
+}
+
+#up{
+ float:left;
+margin-top:0;
+  line-height:28px;
+text-indent:9px;
+text-align:left;
+display: inline-block;
+ width:60px;
+ height:15px;
+    background:url('../Images/pdfb2.png');
+	font-size:12px;
+	  line-height:15px;
+}
+  .pic{
+
+
+ z-index: 0;
+
+ float:left;
+
+ width:191px;
+ height:191px;
+top:0px;
+ margin-left:0px;
+
+
+
+}
+
+#header{
+height:4600px;
+ width:671px;
+
+ float:left;
+}
+
+#avatar {
+ width:191px;
+height:191px;
+
+position:relative;
+  margin-top:0px;
+
+float:left;
+
+box-shadow: 0 2px 3px rgba(0,0,0,.25);
+-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+}
+#image {
+ width:191px;
+height:191px;
+
+
+
+float:left;
+
+}
+#content {
+ width:480px;
+height:191px;
+
+box-shadow: 0 2px 3px rgba(0,0,0,.25);
+-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+float:left;
+
+}
+#ownvoting{
+
+
+width:311px;
+height:4700px;
+display: inline-block;
+float:left;
+
+}
+
+#personalinfo{
+ width:480px;
+height:191px;
+display: inline-block;
+   background:url('../Images/pdfb5.png');
+float:left;
+
+}
+
+
+#site a{
+ width:191px;
+ height:30px;
+
+font-size:11px;
+
+   color:#4F4F4F;
+    text-decoration:none;
+	 line-height:25px;
+	    text-align:center;
+
+   background:url('../Images/pdfb.png');
+
+margin-top:161px;
+  position: absolute; 
+  margin-left:0px;
+
+
+
+}
+.n2{
+
+  position: absolute; 
+ z-index: 1;
+top:0px;
+float:left;
+}
+
+
+  /* в будущем убрать бэкграунды! */
+
+
+#wall{
+
+ width:360px;
+
+height:4700px;
+display: inline-block;
+float:left;
+
+}
+#tops{
+
+ width:192px;
+top:0;
+height:890px;
+display: inline-block;
+float:left;
+background:white;
+}
+
+  /* Toolbar */
+
+
+
+
+
+
+#searchandenter{
+display: inline-block;
+ width:25px;
+  height:25px;
+  float:right;
+}
+
+
+
+
+#space{
+min-height:5000px;
+ width:671px;
+float:left;
+display: inline-block;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.jqueryslidemenu ul li {
+
+float:left;
+display: inline-block;
+ width:120px;
+ height:30px;
+ background:black;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+
+font-weight:normal;
+  line-height:13px;
+  font-family:Arial Black;
+  font-size:11px;
+
+}
+
+
+.jqueryslidemenu ul li a:hover {
+
+
+float:left;
+display: inline-block;
+ width:120px;
+ height:30px;
+ background:#1C1C1C;
+    line-height:30px;
+
+  padding:0px;
+}
+
+#logo{
+
+float:left;
+display: inline-block;
+ width:191px;
+ height:30px;
+background:black;
+
+}
+
+#logo img{
+
+float:left;
+display: inline-block;
+margin-left:35px;
+background:black;
+margin-top:3px;
+ height:24px;
+}
+#Settings a{
+font-size:15px;
+float:left;
+display: inline-block;
+ width:103px;
+ height:30px;
+ background:black;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+  font-weight:bold;
+  line-height:34px;
+}
+#enter a{
+font-size:15px;
+float:left;
+display: inline-block;
+ width:25px;
+ height:30px;
+ background:black;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+  font-weight:bold;
+  line-height:34px;
+}
+
+
+
+#searchfield {
+font-size:15px;
+float:left;
+display: inline-block;
+ width:167px;
+ height:30px;
+ background:black;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+  font-weight:bold;
+  line-height:34px;
+border-radius:0px;
+}
+
+#poisk{
+margin-bottom: 9px;
+width:120px;
+ height:10px;
+ border-radius:0;
+  margin-left:0px;
+}

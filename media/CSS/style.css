@@ -1,0 +1,141 @@
+#top{
+width:100%;
+ background:black;
+ height:30px;
+ position:fixed;
+z-index:9000;
+box-shadow: 0 2px 3px rgba(0,0,0,.25);
+-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+}
+#toolbar{
+
+ min-width:863px;
+ height:30px;
+ background:black;
+width:863px;
+margin: 0px auto 0 auto;
+
+z-index: 1000;
+
+
+
+}
+#logo{
+
+float:left;
+display: inline-block;
+ width:70px;
+ height:30px;
+background:black;
+
+}
+#searchandenter{
+display: inline-block;
+ width:25px;
+  height:25px;
+  float:right;
+}
+#Settings a{
+font-size:15px;
+float:left;
+display: inline-block;
+ width:103px;
+ height:30px;
+ background:black;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+  font-weight:bold;
+  line-height:34px;
+}
+
+
+
+#logo img{
+
+float:left;
+display: inline-block;
+margin-left:15px;
+background:black;
+margin-top:3px;
+ height:24px;
+}
+#enter a{
+  font-size:9px;
+ text-shadow: 0px 0px 20px #1E90FF; 
+color:#1E90FF;
+float:left;
+}
+#enter{
+
+float:left;
+display: inline-block;
+ width:121px;
+ height:30px;
+background:black;
+
+}
+
+#enter a:hover{
+
+float:center;
+ width:121px;
+display: inline-block;
+text-align: center;
+background:black;
+color:#6495ED;
+}
+
+.jqueryslidemenu ul li {
+
+float:left;
+display: inline-block;
+ width:120px;
+ height:30px;
+ background:black;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+
+font-weight:normal;
+  line-height:13px;
+  font-family:Arial Black;
+  font-size:11px;
+
+}
+
+
+.jqueryslidemenu ul li a:hover {
+
+
+float:left;
+display: inline-block;
+ width:120px;
+ height:30px;
+ background:#1C1C1C;
+    line-height:30px;
+
+  padding:0px;
+}
+#searchfield {
+font-size:15px;
+float:left;
+display: inline-block;
+ width:192px;
+ height:30px;
+ background:black;
+  color:white;
+  text-align:center;
+  text-decoration:none;
+  font-weight:bold;
+  line-height:34px;
+border-radius:0px;
+}
+#poisk{
+margin-top: 6px;
+width: 120px;
+height: 18px;
+ border-radius:0;
+  margin-left:0px;
+   line-height:0px;
+}
