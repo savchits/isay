@@ -13,7 +13,7 @@
             
             
             <base href="<?php echo URL::base(TRUE) ?>">
-<div align="center">
+<div align="center"><div id="first">
    <div id="main" style="background-image:url('media/Images/rtbrwt.jpg')">
 <div id="mainmenu">
     <div id="rr">

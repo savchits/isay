@@ -35,6 +35,10 @@ Write in form ang click SIGN UP. It will take just 1 minute!
         <td  id="formalabel" ><?php echo Form::label('password_confirm', 'RE-ENTER PASSWORD');?></td>
         <td id="formalog2" ><?php echo Form::password('password_confirm', $data['password_confirm'], array('size' => 20));?></td>
     </tr>
+     <tr>
+        <td  id="formalabel" ><?php echo Form::label('aboutuser', 'About me');?></td>
+        <td id="formalog2" ><?php echo Form::input('aboutuser', $data['aboutuser'], array('size' => 20));?></td>
+    </tr>
     <tr>
         <td colspan="2" align="center"></td>
     </tr>

@@ -2,15 +2,15 @@
 
 display: inline-block;
 width: 430px;
-height:230px;
+height:255px;
 
 color: black; 
 
 margin-left:0px;
 margin-right:10px;
-margin-top:30px;
+margin-top:0px;
 
-margin-bottom:10px;
+margin-bottom:0px;
 
 position:absolute;
  z-index: 1;
@@ -18,40 +18,124 @@ top:0px;
 left:0;
 
 float:left;
-box-shadow: 0 2px 3px rgba(0,0,0,.25);
--webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
+
 
  }
 
+ 
+ #tochoosed{
+ display: inline-block;
+ width: 25px;
+height:175px;
+ float:left;
+ 	       background:black;
+	
+		   
+color:white;
+ }
+  #tochoosedtext{
+ display: inline-block;
+ width: 120px;
+height:15px;
+ float:left;
+ 	       background:black;
+	
+		   
+color:white;
+
+font-family: arial;
+
+font-size: 11px;
+font-weight:bold;
+
+
+
+  -moz-transform: rotate(270deg);
+  writing-mode:tb-rl;
+ filter:flipH flipV;
+    -webkit-transform: rotate(270deg);
+-ms-transform: rotate(90deg);
+    margin: 78px 0 90px -51px;
+ transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+
+ }
+ 
+ 
+ .hidden{
+     
+     visibility:hidden;
+     height:100px;
+     width:292;
+     color:blue;
+
+ }
+  
+ .hidden:hover{
+     
+ visibility:visible;
+     height:100px;
+     width:292;
+     color:blue;
+
+ }
+ 
+ #choosed{
+ display: inline-block;
+
+ float:left;
+	       background:url('../IMAGES/pdfb4.png');
+	   color:#1E90FF;
+  -moz-transform: rotate(270deg);
+  writing-mode:tb-rl;
+ filter:flipH flipV;
+    -webkit-transform: rotate(270deg);
+-ms-transform: rotate(90deg);
+    margin: -118px 0 90px -33px; 
+ transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+
+  width: 175px;
+height:60px;
+line-height:35px;
+font-family:tahoma;
+font-size:35px;
+font-weight:bold;
+ }
+ 
  #vote{
        background:url('../IMAGES/pdfb4.png');
  display: inline-block;
  width: 300px;
  float:left;
- height:230px;
+ height:235px;
+box-shadow: 0 2px 3px rgba(0,0,0,.25);
+-webkit-box-shadow: 0 2px 3px rgba(0,0,0,.25);
  }
  #scaling{
-  width: 120px;
+  width: 85px;
   display: inline-block;
    float:left;
-  background:url('../IMAGES/pdfb4.png');
- margin-right:10px;
- height: 230px
+
+ margin-right:0px;
+ height: 260px;
+ margin-top:0px;
  }
   #voteandscale{
-  width: 130px;
+  width: 85px;
   display: inline-block;
    float:left;
- height:100px;
+ height:85px;
    font-size:22px;
     font-weight:bold;
-	
+	      background:url('../Images/ergeeb3.png');
  }
  #voteandscale img{
-  
+   width: 25px;
    float:left;
- 
-	
+  height:25px;
+  margin-top:55px;
+	margin-left:55px;
  }
     #whosaysit{
   width: 130px;
@@ -65,123 +149,79 @@ box-shadow: 0 2px 3px rgba(0,0,0,.25);
  #firstbotton{
  float:left;
   margin-left:0px;
-margin-top:0px;
+font-family:arial ;
  width:60px;
  color:white;
-  background:url('r.png');
-   font-weight:bold;
-   border-bottom:white 1px solid ;
-      border-right:white 2px solid ;
- height:20px;
-  line-height:15px;
+  background:#1E90FF;
+   font-weight:bolder;
+   border-bottom:#1C86EE 2px solid ;
+      border-right:#1C86EE 3px solid ;
+ height:22px;
+  line-height:10px;
      font-size:15px;
-border-radius:0px;
-   
- }
-  #secondbotton{
-     border-bottom:white 1px solid ;
-      border-right:white 2px solid ;
- float:left;
-  margin-left:0px;
-margin-top:0px;
-  width:60px;
- color:white;
-  background:url('r.png');
-   font-weight:bold;
-   border-bottom:white 1px solid ;
-      border-right:white 2px solid ;
- height:20px;
-   line-height:15px;
-     font-size:15px;
-border-radius:0px;
- }
-  #trirdbotton{
-
- float:left;
-  margin-left:0px;
-margin-top:0px;
- width:60px;
- color:white;
-  background:url('r.png');
-   font-weight:bold;
-   border-bottom:white 1px solid ;
-      border-right:white 2px solid ;
- height:20px;
-  line-height:15px;
-     font-size:15px;
-border-radius:0px;
- }
-  #fourthbotton{
- float:left;
-  margin-left:0px;
-margin-top:0px;
- width:60px;
- color:white;
-  background:url('r.png');
-   font-weight:bold;
-   border-bottom:white 1px solid ;
-      border-right:white 2px solid ;
-  height:20px;
-   line-height:15px;
-     font-size:15px;
-border-radius:0px;
+border-radius:1px;
+text-align:center;
+text-indent:-4px;
+   text-shadow: 0px 0px 1px white;
  }
 
- 
-
-  #fifthbotton{
- float:left;
-  margin-left:0px;
-margin-top:0px;
- width:60px;
- color:white;
-   background:url('r.png');
-   font-weight:bold;
-   border-bottom:white 1px solid ;
-      border-right:white 2px solid ;
- height:20px;
-  line-height:15px;
-     font-size:15px;
-border-radius:0px;
+#bottondiv{
 
 
+margin-top:5px;
+}
+ #firstbottonlabel{
+text-indent:5px;
+ margin-top:0px;
+  font-family:Verdana;
+     font-size:10px;
+	  height:22px;
+	  width:292px;
  }
-
- 
+ #firstbottonlabel:hover{
+text-indent:5px;
+ margin-top:0px;
+  font-family:Verdana;
+     font-size:10px;
+	       background:url('../IMAGES/pdfb4.png');
+		    height:22px;
+			width:292px;
+ }
 
  
  #textquestion{
  float:left;
- width: 210px;
+ width: 227px;
   display: inline-block;
 
 
 
 
 margin-left:10px;
-  height:70px;
+  height:65px;
    text-decoration:none;
  text-align: left;
- color: #000;
- font-size: 15px;
- font-family:Georgia;
+ color: #1E90FF;
+ font-size: 11px;
+ font-family:Verdana;
 
  text-transform: none;
  font-style: normal;
  font-variant: normal;
- font-weight: bold;
+ font-weight: bolder;
  line-height: normal;
  letter-spacing: normal;
-  
+  margin-top:0px;
   
  }
 
   #picavatar{
   float:left;
- width: 60px;
+ width: 50px;
   display: inline-block;
-  height:60px;
-
+  height:50px;
+margin-top:5px;
+margin-left:3px;
  }
  
  .answear{
@@ -189,14 +229,23 @@ text-align:left;
  width: 300px;
   display: inline-block;
   height:27px;
-margin-left:5px;
+margin-left:8px;
 	
  }
  
   #question{
 
-width: 300px;
+width: 295px;
 height:70px;
 margin-left:5px;
+
+ }
+ #activecountry{
+     float:left;
+     display: inline-block;
+     width: 85px;
+height:175px;
+box-shadow: 0 1px 3px rgba(0,0,0,.25);
+-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.25);
 
  }

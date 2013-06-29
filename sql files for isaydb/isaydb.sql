@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Хост: 127.0.0.1
--- Время создания: Июн 17 2013 г., 20:28
+-- Время создания: Июн 29 2013 г., 23:36
 -- Версия сервера: 5.5.27
 -- Версия PHP: 5.4.7
 
@@ -107,12 +107,12 @@ CREATE TABLE IF NOT EXISTS `countries` (
 --
 
 INSERT INTO `countries` (`id`, `url`, `picpath`, `backgroundpath`, `name`, `link`, `about`) VALUES
-(1, 'usa', 'avatar_usa', 'MEDIA/Images/usabpic.jpg', 'USA', 'www.isay.net/usa', 'Official ISay USA '),
-(2, 'index', 'aewgrth', 'MEDIA/Images/worldbg.jpg', 'WORLD', 'isay.net', 'Official ISay World'),
-(3, 'belarus', 'avatar_belarus', 'MEDIA/Images/minsk.jpg', 'BELARUS', 'www.isay.net/belarus', 'Official ISay Belarus'),
-(4, 'china', 'avatar_china', 'MEDIA/Images/chin.jpg', 'CHINA', 'www.isay.net/china', 'Official ISay China'),
-(5, 'russia', 'avatar_russia', 'MEDIA/Images/russiabggggg.jpg', 'RUSSIA', 'www.isay.net/russia', 'Official ISay Russia'),
-(6, 'uk', 'avatar_uk', 'MEDIA/Images/london.jpg', 'UNITED KINGDOM', 'www.isay.net/uk', 'Official United Kingdom'),
+(1, 'usa', 'avatar_usa', 'MEDIA/Images/flags/51-1.jpg', 'USA', 'www.isay.net/usa', 'Official ISay USA '),
+(2, 'index', 'worldava', 'MEDIA/Images/18254-1920x1200d.jpg', 'WORLD', 'isay.net', 'Official ISay World <br> We are OPEN and FREE platform for the scalable votings for the most important  current topics around The World. Join us to build the best future!'),
+(3, 'belarus', 'avatar_belarus', 'MEDIA/Images/flags/esrrtt.jpg', 'BELARUS', 'www.isay.net/belarus', 'Official ISay Belarus'),
+(4, 'china', 'avatar_china', 'MEDIA/Images/flags/rbvgerg.jpg', 'CHINA', 'www.isay.net/china', 'Official ISay China'),
+(5, 'russia', 'avatar_russia', 'MEDIA/Images/flags/dfbsrn.jpg', 'RUSSIA', 'www.isay.net/russia', 'Official ISay Russia'),
+(6, 'uk', 'avatar_uk', 'MEDIA/Images/flags/zsdfg.jpg', 'UNITED KINGDOM', 'www.isay.net/uk', 'Official United Kingdom'),
 (7, 'adnews', '', '', 'NEWS', '', 'NEWS'),
 (8, 'adads', '', '', 'ADS', 'ADS', '');
 
@@ -157,14 +157,8 @@ CREATE TABLE IF NOT EXISTS `roles_users` (
 
 INSERT INTO `roles_users` (`user_id`, `role_id`) VALUES
 (2, 1),
-(3, 1),
-(9, 1),
-(10, 1),
-(11, 1),
-(12, 1),
-(13, 1),
-(9, 2),
-(10, 2);
+(15, 1),
+(15, 2);
 
 -- --------------------------------------------------------
 
@@ -182,24 +176,19 @@ CREATE TABLE IF NOT EXISTS `users` (
   `last_login` int(10) unsigned DEFAULT NULL,
   `picpath` text NOT NULL,
   `backgroundpath` text NOT NULL,
+  `aboutuser` text CHARACTER SET latin1 COLLATE latin1_general_ci NOT NULL,
   PRIMARY KEY (`id`),
   UNIQUE KEY `uniq_username` (`username`),
   UNIQUE KEY `uniq_email` (`email`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=14 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=19 ;
 
 --
 -- Дамп данных таблицы `users`
 --
 
-INSERT INTO `users` (`id`, `email`, `username`, `first_name`, `password`, `logins`, `last_login`, `picpath`, `backgroundpath`) VALUES
-(1, 'maryna@gmail.com', 'maryna1', 'maryna2', '1234', 0, NULL, '', ''),
-(2, 'myemail@gmail.com', 'stacey', 'Anastasia', 'f917ac0dd152f833fba11c05f811a5e7ee015d63178edd9e7b8f61666d048cd7', 22, 1371483678, 'MEDIA/Images/akyla-hichnica.jpg', 'MEDIA/Images/akyla-hichnica.jpg'),
-(3, 'kaz@gmail.com', 'KAZIMIR', 'Kazimir', 'f917ac0dd152f833fba11c05f811a5e7ee015d63178edd9e7b8f61666d048cd7', 1, 1370530353, '', ''),
-(9, 'thisisadmin@gmail.com', 'thisisadmin', 'thisisadmin', '856709da0e6cbe04aa774d6e8a4c386d878434e1c9fcb1f8d32b5f71d1b78bf6', 21, 1371480974, '', ''),
-(10, 'email@gmail.com', 'aleksandermikhalkevich', 'alex', 'f917ac0dd152f833fba11c05f811a5e7ee015d63178edd9e7b8f61666d048cd7', 2, 1370854485, '', ''),
-(11, 'linchul@gmail.com', 'maryna', 'linchuk', 'f917ac0dd152f833fba11c05f811a5e7ee015d63178edd9e7b8f61666d048cd7', 2, 1371121463, '', ''),
-(12, 'ascs', 'me', 'meagain', 'f917ac0dd152f833fba11c05f811a5e7ee015d63178edd9e7b8f61666d048cd7', 1, 1371313991, '', ''),
-(13, '', '', '', '85a2b87d2aaa44d3f0483261f1ac789bd2253fd8c0421cc8e0e59d718cbf06e3', 0, NULL, '', '');
+INSERT INTO `users` (`id`, `email`, `username`, `first_name`, `password`, `logins`, `last_login`, `picpath`, `backgroundpath`, `aboutuser`) VALUES
+(2, 'myemail@gmail.com', 'stacey', 'Anastasia', 'f917ac0dd152f833fba11c05f811a5e7ee015d63178edd9e7b8f61666d048cd7', 34, 1372541580, 'MEDIA/Images/akyla-hichnica.jpg', 'MEDIA/Images/akyla-hichnica.jpg', 'I am a vegetarian blue shark living in the big ocean called the World'),
+(15, 'admin@gmail.com', 'admin', 'thisisadmin', '132273e4c241004494c1294c2699e2a7be9404bcb2c4e5564b5316405ce2518d', 6, 1372540857, '', 'MEDIA/Images/km.jpg', 'I am Admin  of this strange project ');
 
 -- --------------------------------------------------------
 

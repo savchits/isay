@@ -12,7 +12,7 @@
 
    <head>
 
-      <title> I Say </title>     
+      <title> ISay </title>     
 	  <meta HTTP-Equiv="content-Type" Content="text/html";
 Charset=UTF-8>
       <link rel="stylesheet" type="text/css" href="MEDIA/CSS/isaystyle.css">
@@ -176,7 +176,7 @@ $(".answear").bind('click',function(event){
  
 <div id="tops">
 	
-
+</div>
 	</div>
    </body>
    

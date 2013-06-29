@@ -47,8 +47,9 @@ $this->template->block_right = array($block_right);
 		
 
  
-$votingblock=View::factory('v_votingblock', array('mainblock'=>$a));
+$votingblock=View::factory('v_votingblock', array('mainblock'=>$a,  ));
 $this->template->votingblock=array($votingblock);
+
 }
 
  else

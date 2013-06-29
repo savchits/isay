@@ -12,7 +12,7 @@
 
    <head>
 
-      <title> I Say </title>     
+      <title> ISay </title>     
 	  <meta HTTP-Equiv="content-Type" Content="text/html";
 Charset=UTF-8>
       <link rel="stylesheet" type="text/css" href="MEDIA/CSS/isaystyle.css">
@@ -168,16 +168,16 @@ $(".answear").bind('click',function(event){
 <div id="space2">
 	<div id="ownvoting">
 <div id="datapro">31 May</div>
+
 		<div id="vote">
 
 <FORM METHOD="POST" >
-   
-<div id="question"><div id="picavatar"><img width=60px;  src='MEDIA/Images/Bruce_png.png'/></div><div id="textquestion">Новая коллекция Tally Weijl</div></div>
-<div class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton'>Летняя и легкая</label></div>
-<div class="answear" ><INPUT id="secondbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='secondbotton'>Одежда красивая</label></div>
-<div class="answear" ><INPUT id="trirdbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='trirdbotton'>Одежда качественная</label></div>
-<div class="answear"><INPUT id="fourthbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='fourthbotton'>Коллекция понравилась</label></div>
-<div class="answear"><INPUT id="fifthbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='fifthbotton'>Мне не понравилась новая коллекция</label></div>
+<div id="question"><div id="picavatar"><img  src='MEDIA/Images/Bruce_png.png'/></div><div id="textquestion">Vegetarianizm is</div></div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div>
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a health decision</label></div>
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">moral act</label></div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">adequate diet for modern people</label></div>
 
 
 
@@ -196,12 +196,31 @@ $(".answear").bind('click',function(event){
 
 </FORM>
 </div>
+
+
+
+
+
 	</div>
 	
 	<div id="wallpro">
 	<div id="wallplace">
-	<div class="isaymessage">You didn't vote yet. VOTE and SHOW your choice on your ISAY profile RIGHT NOW!</div>
-		<div class="isaymessage">You didn't vote yet. VOTE and SHOW your choice on your ISAY profile RIGHT NOW!</div>
+	<div class="isaymessage">
+            <div id='messageava'><img  src='MEDIA/Images/Bruce_png.png'/></div><div id='messagetext'>
+            <span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'>Legendary rock band of our times is</span> 30 seconds to Mars<span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'> because</span> their music has global character
+   </div>
+   </div>
+            
+            
+            
+            
+            
+            
+        <div class="isaymessage">You didn't vote yet. VOTE and SHOW your choice on your ISAY profile RIGHT NOW!</div>
 	</div>
 	
 	</div>
@@ -213,6 +232,7 @@ $(".answear").bind('click',function(event){
 
 	</div>
 
+</div>
 </div>
 </div>
 </div>

@@ -1,5 +1,6 @@
 <base href="<?php echo URL::base(TRUE) ?>">
-<div align="center">
+<div id='bod' align="center">
+<div id="first">
     <div id="main" style="background-image:url('<?php echo $mainblock->backgroundpath; ?>')">
 
 <div id="info">
@@ -8,10 +9,10 @@
 	<?php echo $mainblock->first_name;?>
 	</div>
 	<div id="country">
-	
+	Russia
 	</div>
 	<div id="city">
-	
+	Moscow
 	</div>
 	<div id="listento">
 	
@@ -73,7 +74,7 @@
 	<div id="content">
 
 	<div id="personalinfo">
-	<div id="aboutme"><div id="textinside">	</div></div>
+	<div id="aboutme"><div id="textinside"><?php echo $mainblock->aboutuser ;?></div></div>
 	<div id="myfriends">
 	<div id="friendstolisten">
 <a href="#"><div id='onefriend'><img  src='MEDIA/Images/evetbv.jpg'/>Alan Parker</div></a>
@@ -94,6 +95,6 @@
 </div>
 <div id="info2">
 <div id="listennotlisten"><a href='#'>SETTINGS</a></div>
-<div id="whosays">	<?php echo $mainblock->first_name;?> asks</div>
+<div id="whosays"><div id='whosaysprofile'>	<?php echo $mainblock->first_name;?> says</div></div>
 </div>
  

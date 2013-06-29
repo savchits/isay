@@ -60,7 +60,7 @@
 	<div id="header">
 	<div id='information'>
 	<div id="avatar">
-	<div  class="pic"><?php echo HTML::image('media/Images/ligdfug.png')?></div>
+	<div  class="pic"><?php echo HTML::image('media/Images/worldava.png')?></div>
 <div class="n2">
 		
 	</div>

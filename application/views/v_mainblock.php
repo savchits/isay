@@ -1,5 +1,6 @@
 <base href="<?php echo URL::base(TRUE) ?>">
-<div align="center">
+<div id='bod' align="center">
+<div id="first">
    <div id="main" style="background-image:url('<?php echo $mainblock->backgroundpath; ?>')">
 
 <div id="info">

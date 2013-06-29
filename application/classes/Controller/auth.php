@@ -80,7 +80,7 @@ $this->action_login();
 	    public function action_register() {
 
         if (isset($_POST['submit'])){
-            $data = Arr::extract($_POST, array('username', 'password', 'first_name', 'password_confirm', 'email'));
+            $data = Arr::extract($_POST, array('username', 'password', 'first_name', 'password_confirm', 'email', 'aboutuser'));
             $users = ORM::factory('user');
 
        try {
@@ -90,6 +90,7 @@ $this->action_login();
 				'first_name' => $data['first_name'],
 				'password_confirm' => $data['password_confirm'],
 				'email' => $data['email'],
+                                    'aboutuser' => $data['aboutuser'],
 				));
 				$users -> save();
 
@@ -97,7 +98,7 @@ $this->action_login();
                 $role = ORM::factory('Role')->where('name', '=', 'login')->find();
 	
                 $users->add('roles', $role);
-     
+  
 				
                 $this->action_login();
                Controller::redirect('account');

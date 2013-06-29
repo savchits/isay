@@ -12,7 +12,7 @@
 
    <head>
 
-      <title> I Say </title>     
+      <title> ISay </title>     
 	  <meta HTTP-Equiv="content-Type" Content="text/html";
 Charset=UTF-8>
       <link rel="stylesheet" type="text/css" href="MEDIA/CSS/isaystyle.css">
@@ -107,7 +107,7 @@ $(".answear").bind('click',function(event){
 		
    </head>
 
-   <body>
+   <body style="background-image:url('media/Images/korporatsiya-monstrov_1920x1200.jpg')">
    
 <div id="top">
 <div id="container">
