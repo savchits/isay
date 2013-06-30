@@ -16,3 +16,6 @@
 #12 C:\xampp\htdocs\isay\system\classes\Kohana\Request.php(990): Kohana_Request_Client->execute(Object(Request))
 #13 C:\xampp\htdocs\isay\index.php(118): Kohana_Request->execute()
 #14 {main} in C:\xampp\htdocs\isay\application\views\v_auth_register.php:24
+2013-06-30 03:18:23 --- CRITICAL: ErrorException [ 1 ]: Maximum execution time of 30 seconds exceeded ~ MODPATH\database\classes\Kohana\Database\MySQL.php [ 59 ] in :
+2013-06-30 03:18:23 --- DEBUG: #0 [internal function]: Kohana_Core::shutdown_handler()
+#1 {main} in :

@@ -173,11 +173,11 @@ $(".answear").bind('click',function(event){
 
 <FORM METHOD="POST" >
 <div id="question"><div id="picavatar"><img  src='MEDIA/Images/Bruce_png.png'/></div><div id="textquestion">Vegetarianizm is</div></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a health decision</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">moral act</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">adequate diet for modern people</label></div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div><div class='hiddenabout'><img src='media/Images/xxfvd.jpg'>about</div> 
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a healthy decision</label></div><div class='hiddenabout'><img src='media/Images/devushka.jpg'>lalala</div> 
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div><div class='hiddenabout'><img src='media/Images/dbgdfvd.jpg'>texttext</div> 
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">moral act</label></div><div class='hiddenabout'><img src='media/Images/BinaryImage.jpg'>blabla</div> 
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">adequate diet for modern people</label></div><div class='hiddenabout'><img src='media/Images/cccc.jpg'>some text</div> 
 
 
 

@@ -56,11 +56,11 @@
 
 <FORM METHOD="POST" >
 <div id="question"><div id="picavatar"><?php echo HTML::image('media/Images/'. $mainblock->picpath .'.png');?></div><div id="textquestion">The HOTTEST polician figure in the World is</div></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel" >Barack Obama</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Vladimir Putin</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Silvio Berlusconi</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Prince William</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Mikhail Prokhorov</label></div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel" >Barack Obama</label></div><div class='hiddenabout'><img src='media/Images/brgn.jpg'>Barack Hussein Obama II</div> 
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Vladimir Putin</label></div><div class='hiddenabout'><img src='media/Images/igugfd.jpg'>about</div> 
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Silvio Berlusconi</label></div><div class='hiddenabout'><img src='media/Images/sdvsfvs.jpg'>about</div> 
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Nicolas Sarkozy</label></div><div class='hiddenabout'><img src='media/Images/dfbfrgb.jpg'>about</div> 
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Mikhail Prokhorov</label></div><div class='hiddenabout'><img src='media/Images/esbrnh.jpg'>about</div> 
 
 
 
@@ -139,11 +139,11 @@
 
 <FORM METHOD="POST" >
 <div id="question"><div id="picavatar"><?php echo HTML::image('media/Images/'. $mainblock->picpath .'.png');?></div><div id="textquestion">Legendary rock band of our times is</div></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">Muse</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">30 seconds to Mars</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Linkin Park</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Rammstein</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Radiohead</label></div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">Muse</label></div><div class='hiddenabout'><img src='media/Images/fgbfbg.jpg'>about</div>
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">30 seconds to Mars</label></div><div class='hiddenabout'><img src='media/Images/esfvr.jpg'>about</div>
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Linkin Park</label></div><div class='hiddenabout'><img src='media/Images/sdvsdvsdv.jpg'>about</div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Rammstein</label></div><div class='hiddenabout'><img src='media/Images/ebgresndfb.jpg'>about</div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">Radiohead</label></div><div class='hiddenabout'><img src='media/Images/dethrh.jpg'>about</div> 
 
 
 
@@ -227,11 +227,11 @@
 <FORM METHOD="POST" >
 <div id="question"><div id="picavatar"><?php echo HTML::image('media/Images/'. $mainblock->picpath .'.png');?></div><div id="textquestion">Vegetarianizm is</div></div>
 
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a health decision</label></div>
-<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">moral act</label></div>
-<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">adequate diet for modern people</label></div>
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div><div class='hiddenabout'><img src='media/Images/xxfvd.jpg'>about</div> 
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a healthy decision</label></div><div class='hiddenabout'><img src='media/Images/devushka.jpg'>lalala</div> 
+<div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div><div class='hiddenabout'><img src='media/Images/dbgdfvd.jpg'>texttext</div> 
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">moral act</label></div><div class='hiddenabout'><img src='media/Images/BinaryImage.jpg'>blabla</div> 
+<div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">adequate diet for modern people</label></div><div class='hiddenabout'><img src='media/Images/cccc.jpg'>some text</div> 
 
 
 
