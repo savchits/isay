@@ -64,7 +64,8 @@ margin-top:3px;
   font-size:9px;
  text-shadow: 0px 0px 20px #1E90FF; 
 color:#1E90FF;
-float:left;
+float:center;
+text-indent:-90px;
 }
 #enter{
 
@@ -78,12 +79,15 @@ background:black;
 
 #enter a:hover{
 
-float:center;
  width:121px;
 display: inline-block;
-text-align: center;
+
+float:center;
 background:black;
-color:#6495ED;
+  font-size:9px;
+ text-shadow: 0px 0px 20px #1E90FF; 
+color:#1E90FF;
+text-indent:-90px;
 }
 
 .jqueryslidemenu ul li {
@@ -105,18 +109,7 @@ font-weight:normal;
 }
 
 
-.jqueryslidemenu ul li a:hover {
 
-
-float:left;
-display: inline-block;
- width:120px;
- height:30px;
- background:#1C1C1C;
-    line-height:30px;
-
-  padding:0px;
-}
 #searchfield {
 font-size:15px;
 float:left;
