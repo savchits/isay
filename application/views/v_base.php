@@ -29,7 +29,7 @@ html .jqueryslidemenu { height: 1%; } /* Holly Hack for IE7 and below */
 <![endif]-->
 		
 
-		
+				
 		<script>
 jQuery(function($){
 var fx = {
@@ -78,21 +78,14 @@ modal.append(msg);
 
 
 
-$(".answear").bind('click',function(event){
-	event.preventDefault();
-	modal=fx.initmodal();
-	fx.initClose();
-	$.ajax({
-	  url:"enter.html",
-	});
-});
+
 
 $(".answear").bind('click',function(event){
 	event.preventDefault();
 	modal=fx.initmodal();
 	fx.initClose();
 	$.ajax({
-	  url:"enter.html",
+	  url:"enter",
 	});
 });
 
@@ -115,10 +108,10 @@ $(".answear").bind('click',function(event){
 <div id="myslidemenu" class="jqueryslidemenu">
 <ul>
 	<li id="logo" >
-	<?php echo HTML::image('media/Images/logo.png')?>
+	<?php echo HTML::image('media/Images/logo3newlittle.png')?>
 	</li>
 			<li id="enter" >
-	<?php  if(!$logged_in):?><?php echo HTML::anchor('auth/index',"NO");?><?php else:?><?php echo HTML::anchor('auth/logout',"YES");?><?php endif?>
+	<?php  if(!$logged_in):?><?php echo HTML::anchor('auth/index',"no");?><?php else:?><?php echo HTML::anchor('auth/logout',"yes");?><?php endif?>
 	</li>
 	
 	<li  >
@@ -166,18 +159,7 @@ $(".answear").bind('click',function(event){
 <?=$mainblock?>
  
 <div id="space">
-	<div id="news2">
 
-   <?if (isset($block_left)):?>
-              
-                
-                    <?php foreach($block_left as $lblock): ?>
-                        <?php echo $lblock; ?>
-                    <?php endforeach; ?>
-             
-            <?endif?>
-	
-	</div>
 	
 	<div id="wall">
  

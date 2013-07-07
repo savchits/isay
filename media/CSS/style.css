@@ -21,7 +21,9 @@ z-index: 1000;
 
 }
 #logo{
-
+font-weight:bold;
+font-size:15px;
+font-family:Century Gothic;
 float:left;
 display: inline-block;
  width:70px;
@@ -132,3 +134,63 @@ height: 18px;
   margin-left:0px;
    line-height:0px;
 }
+
+/*window*/
+
+
+.model-window {
+position:fixed;
+top:140px;
+left:40%;
+width:611px;
+height:350px;
+margin-left:-200px;
+padding:20px;
+border:0px solid green;
+       background:url('../IMAGES/pdfb4.png');
+border-radius:0px;
+-moz-border-radius:6px;
+box-shadow:0 0 14px #123;
+Z-index:99;
+
+}
+.modal-close-btn {
+position:absolute;
+top:2px;
+height:2px;
+margin:0;
+padding:0;
+text-decoration:none;
+color:black;
+font-size:18px;
+margin-left:612px;
+}
+.modal-close-btn:hover {
+position:absolute;
+top:2px;
+height:2px;
+margin:0;
+padding:0;
+text-decoration:none;
+color:black;
+font-size:14px;
+margin-left:612px;
+
+}
+
+.modal-close {
+position:reletive;
+top:-2px;
+content:"Закрыть";
+font-size:12px;
+text-transform:uppercase;
+}
+#jquery-overlay {
+    height: 500px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 90;
+}
+

@@ -115,7 +115,7 @@ $(".answear").bind('click',function(event){
 <div id="myslidemenu" class="jqueryslidemenu">
 <ul>
 	<li id="logo" >
-	<?php echo HTML::image('media/Images/logo.png')?>
+	<?php echo HTML::image('media/Images/logo2newlittle.png')?>
 	</li>
 			<li id="enter" >
 	<?php  if(!$logged_in):?><?php echo HTML::anchor('auth/index',"NO");?><?php else:?><?php echo HTML::anchor('auth/logout',"YES");?><?php endif?>

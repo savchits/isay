@@ -30,76 +30,6 @@ html .jqueryslidemenu { height: 1%; } /* Holly Hack for IE7 and below */
 		
 
 		
-		<script>
-jQuery(function($){
-var fx = {
-"initmodal":function(){
-if($(".model-window").length==0)
-{
-
-$("<div>")
-							.attr("id", "jquery-overlay")
-							.css({
-								"background":"#000 repeat-x",
-								"opacity": "0.3",
-								"position":"fixed",
-								"height":"100%",
-							})
-							.fadeIn("slow")
-							.appendTo("body");	
-							
-return $("<div>").addClass('model-window').appendTo('body');
-} else{return $(".model-window");}
-},
-"initClose" : function(){
-$("<a>").attr("href", "#")
-.addClass("modal-close-btn")
-.html("&times;")
-.click(function(event){
-event.preventDefault();
-
-$(".model-window").fadeOut("slow", function(){$(this).remove();});
-						$("#jquery-overlay").fadeOut("slow", function(){$(this).remove();});
-						
-}).appendTo(modal);
-}
-};
-
-
-$.ajaxSetup({
-type:"POST",
-success:function(data){
-modal.append(data);
-},
-error:function(msg){
-modal.append(msg);
-}
-});
-
-
-
-$(".answear").bind('click',function(event){
-	event.preventDefault();
-	modal=fx.initmodal();
-	fx.initClose();
-	$.ajax({
-	  url:"enter.html",
-	});
-});
-
-$(".answear").bind('click',function(event){
-	event.preventDefault();
-	modal=fx.initmodal();
-	fx.initClose();
-	$.ajax({
-	  url:"enter.html",
-	});
-});
-
-
-});
-</script>
-		
 		
 		
 		
@@ -115,10 +45,10 @@ $(".answear").bind('click',function(event){
 <div id="myslidemenu" class="jqueryslidemenu">
 <ul>
 	<li id="logo" >
-	<?php echo HTML::image('media/Images/logo.png')?>
+	<?php echo HTML::image('media/Images/logo3newlittle.png')?>
 	</li>
 			<li id="enter" >
-	<?php  if(!$logged_in):?><?php echo HTML::anchor('auth/index',"NO");?><?php else:?><?php echo HTML::anchor('auth/logout',"YES");?><?php endif?>
+	<?php  if(!$logged_in):?><?php echo HTML::anchor('auth/index',"no");?><?php else:?><?php echo HTML::anchor('auth/logout',"yes");?><?php endif?>
 	</li>
 	
 	<li  >
