@@ -28,7 +28,13 @@ html .jqueryslidemenu { height: 1%; } /* Holly Hack for IE7 and below */
 </style>
 <![endif]-->
 		
-
+<script> 
+onload = function () 
+{ 
+for (var lnk = document.links, j = 0; j < lnk.length; j++) 
+if (lnk [j].href == document.URL) lnk [j].style.color = '#1E90FF'; 
+} 
+</script>
 				
 		<script>
 jQuery(function($){
@@ -120,7 +126,7 @@ $(".answear").bind('click',function(event){
 	<li  >
 	<a href="#">Country</a>
 <ul>
-     <li><?php echo HTML::anchor('index/index/usa', HTML::image('MEDIA/Images/ICONS/flag_usa.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."USA");?></li>
+     <li><?php echo HTML::anchor('index/index/usa', HTML::image('MEDIA/Images/ICONS/flag_usa.png', array( 'align'=>"left",'width'=>'20', 'height'=>'20'))."USA");?></li>
 	 <li><?php echo HTML ::anchor('index/index/russia', HTML::image('MEDIA/Images/ICONS/flag_russia.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."RUSSIA");?></li>
 	 <li><?php echo HTML:: anchor('index/index/china', HTML::image('MEDIA/Images/ICONS/flag_china.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."CHINA");?></li>
 	 <li><?php echo HTML:: anchor('index/index/uk', HTML::image('MEDIA/Images/ICONS/flag_great_britain.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."UK");?></li>
@@ -175,6 +181,65 @@ $(".answear").bind('click',function(event){
 	
 	
 	</div>
+    
+    
+    <div id='description'>
+        
+        <div id='onedescription'>
+            	<div id="aboutvote">ABOUT</div></FORM>
+                 <div id='about'>
+                     	<?php echo HTML::image('media/Images/presidents.png')?>
+                     <p>   <a href="#">link for some information</a><br></p>
+                    <p> <a href="#">one more link for some information</a></p>
+                    
+                    <p>
+                     this is place for some description of this votings. This is necessary because people have to know what about they say something!
+                  </p>
+                     
+                     
+                 </div>
+            
+            
+        </div>
+        
+           <div id='onedescription'>
+            	<div id="aboutvote">ABOUT</div></FORM>
+                 <div id='about'>
+                          	<?php echo HTML::image('media/Images/presidents.png')?>
+                     <p>   <a href="#">link for some information</a><br></p>
+                    <p> <a href="#">one more link for some information</a></p>
+                    
+                    <p>
+                     this is place for some description of this votings. This is necessary because people have to know what about they say something!
+                  </p>
+                 </div>
+            
+            
+        </div>
+        
+           <div id='onedescription'>
+            	<div id="aboutvote">ABOUT</div></FORM>
+                 <div id='about'>
+                          	<?php echo HTML::image('media/Images/presidents.png')?>
+                     <p>   <a href="#">link for some information</a><br></p>
+                    <p> <a href="#">one more link for some information</a></p>
+                    
+                    <p>
+                     this is place for some description of this votings. This is necessary because people have to know what about they say something!
+                  </p>
+                 </div>
+            
+            
+        </div>
+        
+        
+        
+        
+        
+        
+    </div>
+    
+    
 
 </div>
 </div>

@@ -63,11 +63,8 @@ $this->action_login();
                     ->bind('errors', $errors)
                     ->bind('data', $data);
 
-                 
-                            
-                            
-
            $this->template->mainblock = $content;
+           
                  $content = View::factory('v_auth_register')
                             ->bind('errors', $errors)
                             ->bind('data', $data);

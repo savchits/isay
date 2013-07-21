@@ -94,7 +94,7 @@
 	
 </div>
 <div id="info2">
-<div id="listennotlisten"><a href='#'>SETTINGS</a></div>
+<div id="listennotlisten"><?php echo HTML::anchor('accountsettings/profile',"SETTINGS");?></div>
 <div id="whosays"><div id='whosaysprofile'>	<?php echo $mainblock->first_name;?> says</div></div>
 </div>
  

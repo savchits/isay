@@ -27,6 +27,13 @@ Charset=UTF-8>
 html .jqueryslidemenu { height: 1%; } /* Holly Hack for IE7 and below */
 </style>
 <![endif]-->
+<script> 
+onload = function () 
+{ 
+for (var lnk = document.links, j = 0; j < lnk.length; j++) 
+if (lnk [j].href == document.URL) lnk [j].style.color = '#1E90FF'; 
+} 
+</script>
 		
 
 		
