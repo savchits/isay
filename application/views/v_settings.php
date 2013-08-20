@@ -1,17 +1,12 @@
 <div id="i">
 
-
-
 <div id="info4"></div></div>
- <div id="space">
-	
-	
-	<div id="wallreg">
+<div id="space">
+
+<div id="wallreg">
 <base href="<?php echo URL::base(TRUE) ?>">
 <div align="center">
   
-
-
 
 
 <?php echo Form::open('accountsettings/profile');?>
@@ -38,7 +33,7 @@
         <td colspan="2" align="center"></td>
     </tr>
 </table>
-<a href='#'><div id="listennotlisten"><?php echo Form::submit('submit', 'SAVE');?></div></a>
+<a href='#'><div id="listennotlisten3"><?php echo Form::submit('submit', 'SAVE');?></div></a>
 <?php echo Form::close();?>
 
 	

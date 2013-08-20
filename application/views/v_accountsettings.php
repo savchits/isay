@@ -1,6 +1,6 @@
 		
 
-<?php foreach($styles as $style):?>
+        <?php foreach($styles as $style):?>
 		<?php echo HTML::style($style); ?>
 		<?php endforeach;?>
 		

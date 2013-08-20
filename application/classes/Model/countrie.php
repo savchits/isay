@@ -13,6 +13,12 @@ protected $_has_many = array(
 'news' => array(
 'model' => 'worldnew',
 'foreign_key' => 'countrie_id',),
+
+
+
+'votings' => array(
+'model' => 'poll',
+'foreign_key' => 'countrie_id',),
     
     
     

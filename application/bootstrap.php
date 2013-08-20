@@ -90,7 +90,7 @@ if (isset($_SERVER['KOHANA_ENV']))
  * - boolean  expose      set the X-Powered-By header                        FALSE
  */
 Kohana::init(array(
-	'base_url'   => '/isay/',
+	'base_url'   => '/',
 	 'index_file' => false,
 ));
 
@@ -129,3 +129,5 @@ Route::set('default', '(<controller>(/<action>(/<id>)))')
 		'controller' => 'index',
 		'action'     => 'index',
 	));
+
+

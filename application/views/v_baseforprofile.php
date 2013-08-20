@@ -15,13 +15,8 @@
       <title> ISay </title>     
 	  <meta HTTP-Equiv="content-Type" Content="text/html";
 Charset=UTF-8>
-      <link rel="stylesheet" type="text/css" href="MEDIA/CSS/isaystyle.css">
-	   <link rel="stylesheet" type="text/css" href="MEDIA/CSS/votingblock.css">
-	   <link rel="stylesheet" type="text/css" href="MEDIA/Bootstrap/css/bootstrap.min.css">
-	   		<script src="MEDIA/JS/jquery-1.3.2.min.js" type="text/javascript"></script>
-	    <link rel="stylesheet" type="text/javascript" href="MEDIA/Bootstrap/js/bootstrap.min.js">
-<link type="text/css" href="MEDIA/CSS/jqueryslidemenu.css" rel="stylesheet" />
-<script src="media/js/jqueryslidemenu.js" type="text/javascript"></script>
+
+
 <!--[if lte IE 7]>
 <style type="text/css">
 html .jqueryslidemenu { height: 1%; } /* Holly Hack for IE7 and below */
@@ -133,14 +128,14 @@ $(".answear").bind('click',function(event){
 	</li>
 	<li  >
 	<a href="#">Country</a>
-<ul>
-     <li><?php echo HTML::anchor('index/index/usa', HTML::image('MEDIA/Images/ICONS/flag_usa.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."USA");?></li>
-	 <li><?php echo HTML ::anchor('index/index/russia', HTML::image('MEDIA/Images/ICONS/flag_russia.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."RUSSIA");?></li>
-	 <li><?php echo HTML:: anchor('index/index/china', HTML::image('MEDIA/Images/ICONS/flag_china.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."CHINA");?></li>
-	 <li><?php echo HTML:: anchor('index/index/uk', HTML::image('MEDIA/Images/ICONS/flag_great_britain.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."UK");?></li>
-	 <li><?php echo HTML:: anchor('index/index/belarus', HTML::image('MEDIA/Images/ICONS/flag_belarus.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."BELARUS");?></li>
+        <ul>
+            <li class='imageflag'><?php echo HTML::anchor('index/index/usa', HTML::image('media/Images/ICONS/flag_usa.png', array( 'align'=>"left",'width'=>'20', 'height'=>'20'))."USA");?></li>
+            <li class='imageflag'><?php echo HTML ::anchor('index/index/russia', HTML::image('media/Images/ICONS/flag_russia.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."RUSSIA");?></li>
+            <li class='imageflag'><?php echo HTML:: anchor('index/index/china', HTML::image('media/Images/ICONS/flag_china.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."CHINA");?></li>
+            <li class='imageflag'><?php echo HTML:: anchor('index/index/uk', HTML::image('media/Images/ICONS/flag_great_britain.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."UK");?></li>
+            <li class='imageflag'><?php echo HTML:: anchor('index/index/belarus', HTML::image('media/Images/ICONS/flag_belarus.png', array('align'=>"left", 'width'=>'20', 'height'=>'20'))."BELARUS");?></li>
 
-  </ul>
+        </ul>
 	</li>
 	<li  >
 	<?php echo HTML::anchor('account','I Listen')?>
@@ -174,12 +169,15 @@ $(".answear").bind('click',function(event){
  
 <div id="space2">
 	<div id="ownvoting">
+
+        <div class='Votingprofile'>
+
 <div id="datapro">31 May</div>
 
 		<div id="vote">
 
 <FORM METHOD="POST" >
-<div id="question"><div id="picavatar"><img  src='MEDIA/Images/Bruce_png.png'/></div><div id="textquestion">Vegetarianizm is</div></div>
+<div id="question"><div id="picavatar"><img  src='media/Images/Bruce_png.png'/></div><div id="textquestion">Vegetarianizm is</div></div>
 <div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div><div class='hiddenabout'><img src='media/Images/xxfvd.jpg'>about</div> 
 <div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a healthy decision</label></div><div class='hiddenabout'><img src='media/Images/devushka.jpg'>lalala</div> 
 <div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div><div class='hiddenabout'><img src='media/Images/dbgdfvd.jpg'>texttext</div> 
@@ -206,14 +204,89 @@ $(".answear").bind('click',function(event){
 
 
 
+</div>
 
+
+        <div class='Votingprofile'>
+
+            <div id="datapro">31 May</div>
+
+            <div id="vote">
+
+                <FORM METHOD="POST" >
+                    <div id="question"><div id="picavatar"><img  src='media/Images/Bruce_png.png'/></div><div id="textquestion">Vegetarianizm is</div></div>
+                    <div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div><div class='hiddenabout'><img src='media/Images/xxfvd.jpg'>about</div>
+                    <div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a healthy decision</label></div><div class='hiddenabout'><img src='media/Images/devushka.jpg'>lalala</div>
+                    <div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div><div class='hiddenabout'><img src='media/Images/dbgdfvd.jpg'>texttext</div>
+                    <div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">moral act</label></div><div class='hiddenabout'><img src='media/Images/BinaryImage.jpg'>blabla</div>
+                    <div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">adequate diet for modern people</label></div><div class='hiddenabout'><img src='media/Images/cccc.jpg'>some text</div>
+
+
+
+                    <INPUT TYPE="hidden" NAME=von VALUE="1"/>
+                    <INPUT TYPE="hidden" NAME=a1 VALUE="Ответ №1"/>
+                    <INPUT TYPE="hidden" NAME=a2 VALUE="Ответ №2"/>
+                    <INPUT TYPE="hidden" NAME=a3 VALUE="Ответ №3"/>
+                    <INPUT TYPE="hidden" NAME=a4 VALUE="Ответ №4"/>
+                    <INPUT TYPE="hidden" NAME=a5 VALUE="Ответ №5"/>
+
+
+
+
+
+
+
+                </FORM>
+            </div>
+
+
+
+        </div>
+
+
+        <div class='Votingprofile'>
+
+            <div id="datapro">31 May</div>
+
+            <div id="vote">
+
+                <FORM METHOD="POST" >
+                    <div id="question"><div id="picavatar"><img  src='media/Images/Bruce_png.png'/></div><div id="textquestion">Vegetarianizm is</div></div>
+                    <div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE><label for='firstbotton' id="firstbottonlabel">a stupid idea</label></div><div class='hiddenabout'><img src='media/Images/xxfvd.jpg'>about</div>
+                    <div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">a healthy decision</label></div><div class='hiddenabout'><img src='media/Images/devushka.jpg'>lalala</div>
+                    <div id='bottondiv' class="answear" ><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">the reason for superiority over others</label></div><div class='hiddenabout'><img src='media/Images/dbgdfvd.jpg'>texttext</div>
+                    <div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">moral act</label></div><div class='hiddenabout'><img src='media/Images/BinaryImage.jpg'>blabla</div>
+                    <div id='bottondiv' class="answear"><INPUT id="firstbotton" class="btn" TYPE=submit NAME=answer VALUE=VOTE> <label for='firstbotton' id="firstbottonlabel">adequate diet for modern people</label></div><div class='hiddenabout'><img src='media/Images/cccc.jpg'>some text</div>
+
+
+
+                    <INPUT TYPE="hidden" NAME=von VALUE="1"/>
+                    <INPUT TYPE="hidden" NAME=a1 VALUE="Ответ №1"/>
+                    <INPUT TYPE="hidden" NAME=a2 VALUE="Ответ №2"/>
+                    <INPUT TYPE="hidden" NAME=a3 VALUE="Ответ №3"/>
+                    <INPUT TYPE="hidden" NAME=a4 VALUE="Ответ №4"/>
+                    <INPUT TYPE="hidden" NAME=a5 VALUE="Ответ №5"/>
+
+
+
+
+
+
+
+                </FORM>
+            </div>
+
+
+
+        </div>
 
 	</div>
+
 	
 	<div id="wallpro">
 	<div id="wallplace">
 	<div class="isaymessage">
-            <div id='messageava'><img  src='MEDIA/Images/Bruce_png.png'/></div><div id='messagetext'>
+            <div id='messageava'><img  src='media/Images/Bruce_png.png'/></div><div id='messagetext'>
             <span style='color: #1E90FF;
 font-size: 11px;
 font-family: Verdana'>Legendary rock band of our times is</span> 30 seconds to Mars<span style='color: #1E90FF;
@@ -221,8 +294,51 @@ font-size: 11px;
 font-family: Verdana'> because</span> their music has global character
    </div>
    </div>
-            
-            
+        <div class="isaymessage">
+            <div id='messageava'><img  src='media/Images/Bruce_png.png'/></div><div id='messagetext'>
+            <span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'>Legendary rock band of our times is</span> 30 seconds to Mars<span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'> because</span> their music has global character
+            </div>
+        </div>
+        <div class="isaymessage">
+            <div id='messageava'><img  src='media/Images/Bruce_png.png'/></div><div id='messagetext'>
+            <span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'>Legendary rock band of our times is</span> 30 seconds to Mars<span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'> because</span> their music has global character
+            </div>
+        </div>
+        <div class="isaymessage">
+            <div id='messageava'><img  src='media/Images/Bruce_png.png'/></div><div id='messagetext'>
+            <span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'>Legendary rock band of our times is</span> 30 seconds to Mars<span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'> because</span> their music has global character
+            </div>
+        </div>
+        <div class="isaymessage">
+            <div id='messageava'><img  src='media/Images/Bruce_png.png'/></div><div id='messagetext'>
+            <span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'>Legendary rock band of our times is</span> 30 seconds to Mars<span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'> because</span> their music has global character
+            </div>
+        </div>
+        <div class="isaymessage">
+            <div id='messageava'><img  src='media/Images/Bruce_png.png'/></div><div id='messagetext'>
+            <span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'>Legendary rock band of our times is</span> 30 seconds to Mars<span style='color: #1E90FF;
+font-size: 11px;
+font-family: Verdana'> because</span> their music has global character
+            </div>
+        </div>
             
             
             
@@ -235,9 +351,76 @@ font-family: Verdana'> because</span> their music has global character
 </div>
 </div>
 	<div id="tops">
-	
 
-	</div>
+
+        <div id="topmessage">
+            <div id="topname">Голосование прям в топе</div>
+            <div id="toptext">И его текст здесь</div>
+            <div id="toplink">Ссылка на прекрасного человека</div>
+        </div>
+
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+        <div id="topmessage">
+            <div id="topname">ЦИКЛ ЦИКЛ ЦИКЛ</div>
+            <div id="toptext">Настя делай быстрее гребаный цикл</div>
+            <div id="toplink">Ссылка</div>
+        </div>
+
+
+
+
+
+
+    </div>
 
 </div>
 </div>

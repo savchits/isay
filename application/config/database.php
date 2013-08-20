@@ -21,7 +21,7 @@ return array
 			'hostname'   => 'localhost',
 			'database'   => 'isaydb',
 			'username'   => 'root',
-			'password'   => FALSE,
+			'password'   => 1234,
 			'persistent' => FALSE,
 		),
 		'table_prefix' => '',

@@ -8,8 +8,10 @@ protected $_belongs_to = array(
 'ads' => array(
 'model' => 'ad',
 'foreign_key' => 'ad_id',),
- );
 
 
+
+    );
 
 }
+

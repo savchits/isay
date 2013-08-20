@@ -1,17 +1,5 @@
 
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
-            
+
             <base href="<?php echo URL::base(TRUE) ?>">
 <div align="center"><div id="first">
    <div id="main" style="background-image:url('media/Images/rtbrwt.jpg')">
@@ -21,7 +9,7 @@
 <div id="infolog">
 
 	<div id="name">
-	LOG IN/SIGH UP
+	LOG IN/SIGH UP <?php echo $id ;?>
 	</div>
 	<div id="country">
 	

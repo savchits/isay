@@ -1,12 +1,12 @@
-<base href="<?php echo URL::base(TRUE) ?>">
-<div id='bod' align="center">
-<div id="first">
-    <div id="main" style="background-image:url('<?php echo $centerblock->backgroundpath; ?>')">
+    <base href="<?php echo URL::base(TRUE) ?>">
+    <div id='bod' align="center">
+    <div id="first">
+    <div id="main" style="background-image:url('<?php echo $block_center->backgroundpath; ?>')">
 
-<div id="info">
+    <div id="info">
 
 	<div id="aboutloading">
-Change photo, profile background and base background
+    Change photo, profile background and base background
 	</div>
 
 	
@@ -17,12 +17,11 @@ Change photo, profile background and base background
 	</div>
 		<div id="upanddown">
 			<a  href="#"><div id="up">
-	<img  src='MEDIA/Images/up2.png'/>
+	<img  src='media/Images/up2.png'/>
 	</div></a>
 		<a  href="#"><div id="down">
-	<img  src='MEDIA/Images/down5.png'/>
+	<img  src='media/Images/down5.png'/>
 	</div></a>
-	
 	</div>
 	</div>
 	<div id="sayto">
@@ -31,24 +30,20 @@ Change photo, profile background and base background
 	</div>
 		<div id="upanddown">
 			<a  href="#"><div id="up">
-	<img  src='MEDIA/Images/up2.png'/>
+	<img  src='media/Images/up2.png'/>
 	</div></a>
 		<a  href="#"><div id="down">
-	<img  src='MEDIA/Images/down5.png'/>
+	<img  src='media/Images/down5.png'/>
 	</div></a>
 	
 	</div>
 	
 	</div>
 	
-		<div id="topvoting">
+	<div id="topvoting">
 	TOP VOTINGS
 	</div>
-</div>
-
-
-
-
+    </div>
 
 
 
@@ -57,7 +52,7 @@ Change photo, profile background and base background
 	<div id="header">
 	<div id='information'>
 	<div id="avatar">
-	<div  class="pic"><?php echo HTML::image('media/Images/Bruce_png.png')?></div>
+	<div  class="pic"><?php echo HTML::image('media/uploads/small_' .$images->name);?></div>
 <div class="n2">
 		<div id="site">
 		
@@ -71,46 +66,51 @@ Change photo, profile background and base background
 
 	<div id="personalinfo">
 	<div id="aboutme">
-                
-                
-                
-                
-<?php echo Form::open('accountsettings/addphoto', array('enctype' => 'multipart/form-data'));?>
+
+<?php echo Form::open('accountsettings/profile', array('enctype' => 'multipart/form-data'));?>
+
+
 <table width="100%" cellspacing="3">
 
-  
- 
-  
-       <?php echo Form::label('images', 'Change your profile background');?> 
-            <?php echo Form::file('images[]', array('id' => 'multi'));?>
-    <?php echo HTML::image(   $centerblock->backgroundpath, array('align'=>"center",  'width'=>'150', 'height'=>'110') )?>
-   
-</table>
-<?php echo Form::close();?>
-                
 
-                
-           </div>
+     <?php echo Form::label('facebgimages', '');?>
+    <div id='inputimg'><?php echo Form::file('facebgimages[]', array('id' => 'multi'));?></div>
+    <div id='forimage'><?php echo HTML::image('media/uploads/small_' .$images->name);?>
+
+</table>
+
+
+</div>
+
 	<div id="myfriends">
-<?php echo Form::open('accountsettings/addphoto', array('enctype' => 'multipart/form-data'));?>
+
+
+
+
+
 <table width="100%" cellspacing="3">
 
-  
- 
-  
-       <?php echo Form::label('images', 'Change your base profile');?> 
-            <?php echo Form::file('images[]', array('id' => 'multi'));?>
-     <?php echo HTML::image( 'media/Images/18254-1920x1200.jpg', array('align'=>"center",  'width'=>'180', 'height'=>'110') )?>
-</table>
-<?php echo Form::close();?>
-	</div>
-	</div>
-</div>
 
-	
-</div>
+    <?php echo Form::label('images', '');?>
+    <div id='inputimg'><?php echo Form::file('images[]', array('id' => 'multi'));?></div>
+    <div id='forimage'><?php echo HTML::image('media/uploads/small_' .$images->facebg);?></div>
+
+</table>
+
+
+
+
+	</div>
+	</div>
+    </div>
+
+    </div>
+
 <div id="info2">
-<div id="listennotlisten"><?php echo HTML::anchor('account/profile',"UPLOAD PHOTO");?></div>
+<div id="listennotlisten"><?php echo Form::submit('submit', 'UPLOAD IMAGE');?></div>
 <div id="whosays"><div id='whosaysprofile'>Change you basic settings here!</div></div>
-</div>
- 
+
+    </div>
+
+
+<?php echo Form::close();?>
